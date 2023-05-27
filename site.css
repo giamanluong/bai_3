@@ -1,0 +1,789 @@
+*{
+    margin: 0;
+    position: relative;
+    padding: 0;
+}
+body{
+    background: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 25vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container .line1 > h1{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: rgb(190, 187, 187);
+    font-size: 20px;
+    margin-left: 190px;
+    position: relative;
+    top: 10px;
+}
+.container .line1 > h2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: rgb(216, 212, 212);
+    gap: 30px;
+    cursor: pointer;
+    position: relative;
+    left: 1200px;
+    bottom: 15px;
+    font-size: 22px;
+}
+.container .line2 > h1 ul{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    color: rgb(234, 234, 243);
+    position: relative;
+    top: 90px;
+    right: 1390px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.container .line2 > h2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: rgb(216, 210, 210);
+    gap: 30px;
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+    right: 215px;
+    cursor: pointer;
+}
+.middle{
+    background-color: rgb(29, 29, 58);
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: 175px;
+}
+.middle .img1{
+    margin-left: 188px;
+    top: 60px;
+}
+.middle .line3{
+    list-style: none;
+    position: relative;
+    left: 970px;
+    bottom: 370px;
+    color: rgb(236, 224, 224);
+    word-spacing: 5px;
+    font-size: 20px;
+}
+.middle .dk1{
+    margin-left: 970px;
+    bottom: 320px;
+}
+::placeholder{
+    color: white;
+}
+.dk1 input{
+    height: 65px;
+    width: 350px;
+    color: rgb(251, 251, 253);
+    font-size: 120%;
+    word-spacing: 2px;
+    padding-left: 15px;
+}
+.middle .dk2{
+    margin-left: 970px;
+    bottom: 300px;
+}
+.dk2 input{
+    height: 65px;
+    width: 350px;
+    color: rgb(251, 251, 253);
+    font-size: 120%;
+    word-spacing: 2px;
+    padding-left: 15px;
+}
+.middle .dk3{
+    margin-left: 1400px;
+    bottom: 457px;
+}
+.dk3 input{
+    height: 65px;
+    width: 350px;
+    color: rgb(251, 251, 253);
+    font-size: 120%;
+    word-spacing: 2px;
+    padding-left: 15px;
+}
+.middle .dk4{
+    margin-left: 1400px;
+    bottom: 435px;
+}
+.dk4 input{
+    height: 65px;
+    width: 350px;
+    color: rgb(251, 251, 253);
+    font-size: 120%;
+    word-spacing: 2px;
+    padding-left: 15px;
+}
+.middle .dk5{
+    position: relative;
+    bottom: 420px;
+    margin-left: 1590px;
+}
+.dk5 button{
+    height: 50px;
+    width: 180px;
+    color: rgb(192, 65, 7);
+    font-size: 120%;
+    border-color:rgb(192, 65, 7) ;
+    list-style: none;
+}
+.bottom p1{
+    color: rgb(116, 113, 113);
+    position: relative;
+    margin-left: 190px;
+    top: 260px;
+    font-size: 45px;
+    cursor: pointer;
+}
+.bottom p2{
+    color: rgb(116, 113, 113);
+    position: relative;
+    top: 285px;
+    right: 130px;
+}
+.bottom p3{
+    color: rgb(139, 137, 137);
+    position: relative;
+    top: 340px;
+    font-size: 25px;
+    right: 160px;
+}
+.bottom ul1{
+    cursor: pointer;
+    position: relative;
+    top: 350px;
+    color: rgb(48, 48, 95);
+    left: 214px;
+    list-style: none;
+    line-height: 25px;
+    font-size: 20px;
+}
+.bottom p4{
+    position: relative;
+    top: 380px;   
+    color: rgb(139, 137, 137);
+    margin-left: 215px;
+    font-size: 25px;
+}
+.bottom ul2{
+    list-style: none;
+    cursor: pointer;
+    color: rgb(48, 48, 95);
+    left: 214px;
+    line-height: 25px;
+    font-size: 20px;
+    top: 400px;
+}
+.bottom p5{
+    color: rgb(185, 182, 182);
+    position: relative;
+    top: 265px;
+    left: 215px;
+}
+.bottom p6{
+    color: rgb(185, 182, 182);
+    position: relative;
+    top: 400px;
+    right: 248px;
+}
+.bottom p7{
+    color: rgb(139, 137, 137);
+    position: relative;
+    right: 705px;
+    top: 440px;
+    font-size: 25px;
+}
+.bottom ul3{
+    list-style: none;
+    cursor: pointer;
+    color: rgb(48, 48, 95);
+    line-height: 25px;
+    font-size: 20px;
+    left: 214px;
+    top: 460px;
+}
+.bottom p8{
+    color: rgb(185, 182, 182);
+    position:relative;
+    top: 470px;
+    left: 210px;
+}
+.bottom2 p1{
+    margin-left: 800px;
+    color: rgb(116, 113, 113);
+    position: relative;
+    bottom: 85px;
+    font-size: 45px;
+    cursor: pointer;
+}
+.bottom2 p2{
+    color: rgb(116, 113, 113);
+    position: relative;
+    bottom: 60px;
+    right: 140px;
+}
+.bottom2 .img2{
+    position: relative;
+    top: 90px;
+    right: 192px;
+}
+.bottom2 p3{
+    color: rgb(48, 48, 95);
+    line-height: 25px;
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+    right: 180px;
+    cursor: pointer;
+}
+.bottom2 p4{
+    position: relative;
+    top: 38px;
+    right: 560px;
+    cursor: pointer;
+    color: rgb(48, 48, 95);
+    font-size: 25px;
+}
+.bottom2 .img3{
+    position: relative;
+    right: 907px;
+    top: 220px;
+}
+.bottom2 p5{
+    color: rgb(116, 113, 113);
+    position: relative;
+    right: 893px;
+    top: 70px;
+    font-size: 20px;
+}
+.bottom2 p6{
+    color: rgb(116, 113, 113);
+    position: relative;
+    bottom: 46px;
+    left: 1022px;
+    font-size: 20px;
+}
+.bottom2 p7{
+    position: relative;
+    top: 20px;
+    color: rgb(48, 48, 95);
+    font-size: 25px;
+    left: 875px;
+}
+.bottom2 p8{
+    color: rgb(48, 48, 95);
+    left: 478px;
+    top: 50px;
+    font-size: 25px;
+}
+.bottom2 p9{
+    position: relative;
+    left: 290px;
+    top: 80px;
+    color: rgb(116, 113, 113);
+    font-size: 20px;
+}
+.bottom2 .img4{
+    position: relative;
+    top: 240px;
+    left: 108px;
+
+}
+.bottom2 p10{
+    color: rgb(48, 48, 95);
+    font-size: 25px;
+    position: relative;
+    top: 153px; 
+    left:122px ;
+}
+.bottom2 p11{
+    color: rgb(48, 48, 95);
+    font-size: 25px;
+    right: 270px;
+    top: 185px;
+}
+.bottom2 p12{
+    color: rgb(116, 113, 113);
+    font-size: 20px;
+    position: relative;
+    top: 220px;
+    right: 440px;
+}
+.bottom3 p1{
+    color: rgb(116, 113, 113);
+    font-size: 45px;
+    cursor: pointer;
+    left: 1400px;
+    bottom: 390px;
+}
+.bottom3 p2{
+    color:rgb(116, 113, 113) ;
+    left: 1237px;
+    bottom: 370px;
+}
+.bottom3 .img5{
+    position: relative;
+    left: 1178px;
+    bottom: 152px;
+}
+.bottom3 h1{
+    color:rgb(173, 170, 170) ;
+    position: relative;
+    left: 1400px;
+    bottom: 145px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.below{
+    background-color:rgb(41, 41, 83) ;
+    width: 100%;
+    height: 450px;
+}
+.below h1{
+    color: rgb(236, 234, 234);
+    font-size: 50px;
+    position: relative;
+    left: 205px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal
+}
+.below p1{
+    color: rgb(134, 131, 131);
+    position: relative;
+    left: 205px;
+    bottom: 20px;
+}
+.below ul1{
+    color: rgb(180, 175, 175);
+    text-shadow: 20px;
+    position: relative;
+    left: 215px;
+    bottom: 20px;
+    font-size: 27px;
+    line-height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.below h2{
+    color: rgb(236, 234, 234);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    position: relative;
+    left: 800px;
+    bottom: 365px;
+}
+.below p2{
+    color: rgb(134, 131, 131);
+    position: relative;
+    bottom: 382px;
+    left: 804px;
+}
+.below ul2{
+    color: rgb(180, 175, 175); 
+    text-shadow: 20px;
+    font-size: 27px;
+    line-height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 380px;
+    left: 812px;
+}
+.below h3{
+    color: rgb(236, 234, 234);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    position: relative;
+    bottom: 674px;
+    left: 1402px;
+}
+.below p3{
+    color: rgb(134, 131, 131);
+    position: relative;
+    bottom: 693px;
+    left: 1405px;
+}
+.below ul3{
+    color: rgb(180, 175, 175); 
+    text-shadow: 20px;
+    font-size: 27px;
+    line-height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 693px;
+    left: 1423px;
+}
+.icon1{
+    width: 20px;
+    position: relative;
+    bottom: 910px;
+    left: 186px;
+}
+.icon2{
+    width: 20px;
+    position: relative;
+    bottom: 787px;
+    left: 161px;
+}
+.icon3{
+    width: 20px;
+    position: relative;
+    bottom: 648px;
+    left: 138px;
+}
+
+.under p1{
+    color:rgb(116, 113, 113) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    position: relative;
+    left: 215px;
+    
+}
+.under p2{
+    color: rgb(180, 177, 177);
+    position: relative;
+    right: 135px;
+    top: 10px;
+    font-size: 50px;
+}
+.under .img6{
+    position: relative;
+    top: 60px;
+    left: 220px;
+}
+.under .under1 p3{
+    color:rgb(5, 4, 44) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 235px;
+    bottom: 76px;
+    font-weight: bold;
+}
+.under .under1 p4{
+    color: rgb(180, 177, 177);
+    position: relative;
+    bottom: 55px;
+    right: 18px;
+}
+.under .under1 p5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(128, 126, 126);
+    position: relative;
+    bottom: 20px;
+    right: 65px;
+    font-size: 18px;
+}
+.under .under1 p6{
+    color: rgb(6, 6, 44);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    right: 310px;
+    top: 20px;
+}
+.under .under2 .img7{
+    position: relative;
+    left: 220px;
+    top: 110px;
+}
+.under .under2 p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(5, 4, 44) ;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 230px;
+    bottom: 20px;
+}
+.under .under2 p2{
+    position: relative;
+    right: 50px;
+    bottom: 210px;
+}
+.under .under2 p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(128, 126, 126);
+    position: relative;
+    right: 104px;
+    top: 55px;
+}
+.under .under2 p4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(5, 4, 44) ;
+    position: relative;
+    top: 90px;
+    right: 319px;
+}
+.under .under3 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(128, 126, 126);
+    position: relative;
+    left: 805px;
+    bottom: 378px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.under .under3 h2{
+    color: rgb(143, 140, 140);
+    position: relative;
+    bottom: 395px;
+    left: 815px;
+}
+.under .under3 .img8{
+    position: relative;
+    left: 805px;
+    bottom: 370px;
+    width: 9%;
+}
+.under .under3 .img9{
+    position: relative;
+    left: 820px;
+    bottom: 370px;
+    width: 7%;
+}
+.under .under3 .img10{
+    position: relative;
+    left: 840px;
+    bottom: 370px;
+    width: 7%;
+}
+.under .under3 .img11{
+    position: relative;
+    bottom: 370px;
+    width: 7%;
+    left: 860px;
+}
+.under .under3 .img12{
+    position: relative;
+    bottom: 370px;
+    width: 7%;
+    left: 880px;
+}
+.under .under3 .img13{
+    position: relative;
+    bottom: 370px;
+    width: 7%;
+    left: 900px;
+}
+.under .under3 .img14{
+    position: relative;
+    bottom: 370px;
+    width: 7%;
+    left: 920px;
+}
+.under .under3 .img15{
+    position: relative;
+    bottom: 160px;
+    width: 9%;
+    right: 212px;
+}
+.under .under3 .img16{
+    position: relative;
+    bottom: 160px;
+    width: 7.9%;
+    right: 200px;
+}
+.under .under3 .img17{
+    position: relative;
+    bottom: 160px;
+    width: 7%;
+    height: 50%;
+    right: 188px;
+}
+.under .under3 .img18{
+    position: relative;
+    bottom: 160px;
+    width: 7%;
+    right: 176px;
+}
+.under .under3 .img19{
+    position: relative;
+    bottom: 160px;
+    width: 8%;
+    right: 161px;
+}
+.under .under3 .img20{
+    position: relative;
+    bottom: 160px;
+    width: 7%;
+    left: 5px;
+}
+.under .under3 .img21{
+    position: relative;
+    bottom: 298px;
+    width: 7%;
+    left: 1650px;
+}
+.line4{
+    color: rgb(119, 117, 117);
+    position: relative;
+    bottom: 2550px;
+}
+.img22 .img22a h1{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    position:relative ;
+    left: 220px;
+    bottom: 352px;
+    color: rgb(209, 205, 205);
+    font-weight: normal;
+}
+.img22 .img22a h2{
+    color: rgb(182, 178, 178);
+    position: relative;
+    bottom: 363px;
+    left: 228px;
+}
+.img22 .img22a h3{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 340px;
+    left: 220px;
+    color: rgb(221, 217, 217);
+}
+.img22 .img22a h4{
+    color: rgb(175, 170, 170);
+    position: relative;
+    bottom: 330px;
+    left: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.img22 .img22a h5{
+    color: rgb(175, 170, 170);
+    position: relative;
+    bottom: 300px;
+    left: 220px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img22 .img22a h6{
+    color:rgb(175, 170, 170);
+    position: relative;
+    bottom: 290px;
+    left: 220px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+.img22 .img22a h7{
+    color:rgb(175, 170, 170);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 310px;
+    left: 310px;
+}
+.img22 .img22a h8{
+    color:rgb(175, 170, 170);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    position: relative;
+    left: 53px;
+    bottom: 278px;
+}
+.img22 .img22a h9{
+    color:rgb(175, 170, 170);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 278px;
+    left: 53px;
+}
+.img22 .img22b h1{
+    color: rgb(209, 205, 205);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    position: relative;
+    bottom: 530px;
+    left: 805px;
+}
+.img22 .img22b h2{
+    color: rgb(182, 178, 178);
+    position: relative;
+    bottom: 540px;
+    left: 805px;
+}
+.img22 .img22b ul1{
+    position: relative;
+    bottom: 520px;
+    left: 805px;
+    color:rgb(175, 170, 170);
+    line-height: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img22 .img22c h1{
+    color: rgb(209, 205, 205);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: normal;
+    position: relative;
+    bottom: 750px;
+    left: 1275px;
+}
+.img22 .img22c h2{
+    color: rgb(182, 178, 178);
+    position: relative;
+    bottom: 760px;
+    left: 1278px;
+}
+.img22 .img22c p{
+    color:rgb(175, 170, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    position: relative;
+    bottom: 740px;
+    left: 1278px;
+}
+.end{
+    background-color: rgb(12, 12, 65);
+    width: 100%;
+    height: 80px;
+    position: relative;
+    bottom: 730px;
+}
+.end .end1{
+    width: 1%;
+    height: 20%;
+    position: relative;
+    left: 220px;
+    top: 30px;
+}
+.end h1{
+    color:rgb(155, 152, 152);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 9px;
+    left: 245px;
+    text-shadow: 50px;
+}
+
+
+
+
+
